@@ -8,10 +8,6 @@ const port = 8000;
 
 class Server {
   constructor() {
-    this.initialize();
-  }
-
-  private async initialize() {
     this.initializeHttpServer();
   }
 
